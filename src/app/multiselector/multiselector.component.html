@@ -1,0 +1,5 @@
+<button type="button" class="btn btn-secondary" (click)="addItem()">add item</button>
+<div style="display: flex;">
+    <multilabel *ngFor="let item of items" [itemName]="item"></multilabel>
+</div>
+
