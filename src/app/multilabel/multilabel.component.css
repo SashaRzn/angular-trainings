@@ -1,6 +1,17 @@
 .item {
-    padding: 4px;
-    margin: 4px;
-    background-color: aquamarine;
-    border-radius: 5px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 33px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    height: 40px;
+    line-height: 36px !important;
+    border: 0;
+    border-radius: 4px;
+    cursor: default;
+    background-color: rgba(245, 245, 245, .5);
+    color: #0f54b9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

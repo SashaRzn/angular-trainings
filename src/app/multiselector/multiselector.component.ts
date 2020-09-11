@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
 })
 export class MultiSelectorComponent {
     items: string[] = [
-        "One",
-        "Two",
-        "Three"
+        "HAIMA",
+        "2019",
+        "M3"
     ];
 
     addItem() {
